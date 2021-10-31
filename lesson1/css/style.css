@@ -1,0 +1,134 @@
+
+.wrap{
+	width: 1100px;
+	margin: 30px auto 0;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.wrap_sidebar{
+	background: white;
+	height: 1500px;
+	width: 23%;
+	float: left;
+}
+.author_info img{
+	margin: 20px 0 5px 50px;
+	border-radius: 50%;
+}
+.author_info h3{
+	margin-left: 65px;
+	text-transform: uppercase;
+}
+.author_info span{
+	text-transform: initial;
+	display: block;
+}
+.author_text {
+  text-transform: none;
+	margin-left: 5px;
+  margin-top: 27px;
+  font-size: 15px;
+  line-height: 23px;
+  font-weight: 300;
+}
+.author_text span{
+	font-weight: 400;
+  color: black;
+  margin-left: 0px;
+  font-size: 17px;
+  display: block;
+
+}
+.nav_bar{
+	display: block;
+	margin-left:5px;
+	margin-right: 5px;
+	border-top: 1px solid green;
+  margin-top: 27px;
+  padding-top: 8px;
+}
+.nav_bar ul{
+	display: block;
+	margin: 10px;
+}
+.nav_bar ul li{
+	color: black;
+		padding: 10px 10px;
+}
+.nav_bar ul li a{
+	text-decoration: none;
+	color: black;
+}
+.active{
+	background-color: green;
+  color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+.nav_bar ul li:hover{
+	background-color: green;
+  color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.categor{
+	text-align: center;
+}
+.categor h3{
+    font-weight: 400;
+		font-size: 20px;
+    display: block;
+		position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.categor h3 span{
+	display: inline-block;
+  background-color: white;
+  position: relative;
+  padding: 0 10px;
+}
+.categor h3:before{
+	content: "";
+  background-color: green;
+  display: block;
+  width: 100%;
+  height: 1px;
+  position: absolute;
+  top: 15px;
+}
+.categor ol{
+	display: block;
+	margin: 10px;
+	text-align: left;
+}
+.categor ol li{
+	color: black;
+	padding: 5px 10px;
+}
+.categor ol li a{
+	text-decoration: none;
+	color: black;
+}
+.categor ol li a span{
+	color: green;
+}
+.wrap_content{
+	background: white;
+	height: 400px;
+	width: 50%;
+	float: left;
+}
+aside{
+	background: gray;
+	height: 1100px;
+	width: 27%;
+	float: right;
+	margin: 0 auto;
+}
+aside .banner{
+	background-image: url("./images/ban1.jpq");
+	height: 100px;
+	width: 100px;
+}
